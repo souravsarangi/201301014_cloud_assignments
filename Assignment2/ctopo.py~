@@ -61,9 +61,10 @@ def ctopo():
 
     self.start()
 
-
+    info( '*** Running CLI\n' )
     CLI( self )
 
+    info( '*** Stopping network' )
     self.stop()
 
 
